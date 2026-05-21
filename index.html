@@ -5,72 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Duxhenge Consulting LLC</title>
 <meta name="description" content="Duxhenge Consulting LLC is a software development and publishing company based in Massachusetts.">
-<style>
-  :root {
-    color-scheme: light dark;
-    --bg: #ffffff;
-    --fg: #1a1a1a;
-    --muted: #555555;
-    --link: #0a58ca;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #111111;
-      --fg: #f2f2f2;
-      --muted: #b0b0b0;
-      --link: #6ea8fe;
-    }
-  }
-  * { box-sizing: border-box; }
-  html, body { height: 100%; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--fg);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  main {
-    min-height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4rem 1.5rem;
-  }
-  .card {
-    max-width: 36rem;
-    text-align: center;
-  }
-  h1 {
-    font-size: 1.75rem;
-    font-weight: 600;
-    letter-spacing: 0.01em;
-    margin: 0 0 1.25rem;
-  }
-  p {
-    margin: 0 0 1rem;
-    color: var(--muted);
-  }
-  .contact {
-    margin-top: 2rem;
-    font-size: 0.95rem;
-  }
-  a {
-    color: var(--link);
-    text-decoration: none;
-  }
-  a:hover, a:focus {
-    text-decoration: underline;
-  }
-</style>
+<link rel="icon" type="image/png" href="/logo.png">
+<link rel="apple-touch-icon" href="/logo.png">
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <main>
     <div class="card">
-      <h1>Duxhenge Consulting LLC</h1>
+      <nav class="top-nav">
+        <a href="/" aria-current="page">Home</a>
+        <span class="sep">/</span>
+        <a href="/products/">Products</a>
+      </nav>
+      <img class="banner" src="/banner.jpg" width="1600" height="1093" alt="A wooden pier extending out over a marsh at sunset, dunes and water visible to either side of the horizon.">
+      <h1>Duxhenge Consulting LLC<img class="logo" src="/logo.png" width="512" height="512" alt=""></h1>
+      <hr class="rule">
       <p>A software development and publishing company based in Massachusetts.</p>
       <p class="contact">Contact: <a href="mailto:support@duxhenge.com">support@duxhenge.com</a></p>
     </div>
